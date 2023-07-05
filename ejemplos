@@ -1,0 +1,24 @@
+
+{"ejemplos":{
+  "nested": {
+    "nested": { "parameters": { "lane_id": "003" } },
+    "parameters": { "route_id": "Z10003", "route_name": "SUR / ESTE" }
+  },
+  "parameters": ""
+},
+{
+	"nested":
+		{
+			"nested":{},
+			"parameters":
+				{"route_id":"Z10005"
+				}
+		},
+	"parameters":
+			""
+}}
+
+{"nested":{"nested":"",
+	"parameters":{"route_id":"Z10005"},"messagetype":"route_delete"}
+	,"parameters":{"uuid":""},
+	"messagetype":"routes"}
