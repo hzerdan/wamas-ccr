@@ -6,7 +6,7 @@ const routes = require('./routes');
 const { leerInput } = require('./helpers/inquirer');
 require('dotenv').config();
 const Reenvio = require('./models/reenvio');
-
+const argv = require(./config/yargs);
 const server = express();
 
 server.name = 'API';
