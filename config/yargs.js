@@ -2,7 +2,8 @@ const argv = require('yargs')
               .option('b',{
                 alias:'base',
                 type: 'number',
-                demandOption: false
+                demandOption: false,
+                describe: 'Es la base de la tabla'
               })
               .check((argv,options) => {
                 if ( isNaN(argv.b)){
